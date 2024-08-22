@@ -3,7 +3,7 @@ const mysql=require('mysql2');
 const app=express();
 app.use(express.json());
 const db=mysql.createConnection({
-    host:'localhost',
+    host:'127.0.0.1',
     user:'root',
     password:'RaYa@6672',
     database:'school_management'
